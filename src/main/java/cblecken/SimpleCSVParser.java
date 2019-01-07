@@ -25,6 +25,7 @@ public class SimpleCSVParser {
 	private static final int END_OF_LINE_STATE = 0;	// end state, got full line
 	
 	File csvFile = null;
+
 	BufferedReader buffReader = null;
 	int lineNum = 0;
 	String lineAsStr = null;
